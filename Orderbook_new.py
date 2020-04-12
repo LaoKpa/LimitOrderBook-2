@@ -85,7 +85,7 @@ class Orderbook_new(object):
         else:
             if order.price <= self._bid_book_prices[-1]:
                 pass
-                # match order
+                # match order 
             else:
                 self.add_order_to_book(order)
     

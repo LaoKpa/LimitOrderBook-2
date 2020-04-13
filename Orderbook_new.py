@@ -157,14 +157,14 @@ class Orderbook_new(object):
 
 
 
-o1 = Order(1, 100, 5,'buy', 1)
-o2 = Order(2, 101, 5,'sell', 2)
-B1 = Orderbook_new()
-B1.add_order_to_book(o1) # added to bid
-B1.add_order_to_book(o2)
-print(B1._bid_book)
+#o1 = Order(1, 100, 5,'buy', 1)
+#o2 = Order(2, 101, 5,'sell', 2)
+#B1 = Orderbook_new()
+#B1.add_order_to_book(o1) # added to bid
+#B1.add_order_to_book(o2)
+#print(B1._bid_book)
 #B1.remove_order('sell', 100, 2)
-o3 = Order(3, 100, 2,'sell', 3)
-B1.match_order_market(o3)
-print(B1._bid_book)
-print(B1.trade_history)
+#o3 = Order(3, 100, 2,'sell', 3)
+#B1.match_order_market(o3)
+#print(B1._bid_book)
+#print(B1.trade_history)
